@@ -1,0 +1,73 @@
+html {
+  box-sizing: border-box;
+  color: black;
+}
+
+/* general */
+
+/* Typography */
+span {
+  color: yellow;
+}
+
+/* Style */
+.card {
+  background-color: black;
+  color: white;
+  width: 560px;
+  margin: 0 auto;
+  padding: 45px;
+}
+
+h1,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 1em;
+  /* rem is relative to the size of the font-size*/
+  /*no em and % on font-sizing*/
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  color: black;
+}
+
+.button {
+  display: inline-block;
+  background: #ffe600;
+  color: black;
+  padding: 0.5rem 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 50px;
+  /* em is relative to the font-size of THIS element*/
+  /*em for margin & padding*/
+}
+
+.button:hover {
+  background: orange;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn-small {
+  font-size: 0.75rem;
+}
+
+.accent-color {
+  color: #ffe600;
+}
+
+.links {
+  margin-top: 0;
+  margin-bottom: 0;
+}
