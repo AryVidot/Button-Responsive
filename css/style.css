@@ -26,7 +26,7 @@ p {
 
 h1 {
   font-size: 24px;
-  margin-bottom: 1em;
+  margin-bottom: 1em; /*24px*/
   /* rem is relative to the size of the font-size*/
   /*no em and % on font-sizing*/
 }
@@ -36,18 +36,18 @@ p {
 }
 
 a {
-  color: black;
+  color: #ffe600;
 }
 
 .button {
   display: inline-block;
   background: #ffe600;
   color: black;
-  padding: 0.5rem 1.25rem;
+  padding: 0.5em 1.25em;
+  /* em is relative to the font-size of THIS element*/
   text-align: center;
   text-decoration: none;
   margin-bottom: 50px;
-  /* em is relative to the font-size of THIS element*/
   /*em for margin & padding*/
 }
 
